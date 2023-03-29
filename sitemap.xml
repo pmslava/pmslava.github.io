@@ -2,15 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.pmslava.com/tags/blog/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/tags/foss/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/tags/frontend/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/tags/git/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap-as-a-domain-registrar/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/tags/instruction/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/tags/linux/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/posts/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/tags/site/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/tags/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/tags/technology/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.pmslava.com/about/</loc>
     <lastmod>2023-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.pmslava.com/contact/</loc>
   </url><url>
-    <loc>https://www.pmslava.com/</loc>
-  </url><url>
     <loc>https://www.pmslava.com/projects/</loc>
-  </url><url>
-    <loc>https://www.pmslava.com/tags/</loc>
   </url>
 </urlset>

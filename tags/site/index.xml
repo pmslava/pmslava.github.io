@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>site on pmslava</title>
+    <link>https://www.pmslava.com/tags/site/</link>
+    <description>Recent content in site on pmslava</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pmslava.com/tags/site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to set up a static website with Hugo, GitHub Pages and Namecheap as a domain registrar</title>
+      <link>https://www.pmslava.com/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap-as-a-domain-registrar/</link>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pmslava.com/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap-as-a-domain-registrar/</guid>
+      <description>Hi there! This is my first post on this site and I think it&amp;rsquo;s a nice tradition to start it from the explanation on how this site was setted up.
+Why a static website Link to heading In short the combination of these gives you a very simple, fast and reliable personal blog:
+Hugo - for generation a static website GitHub Pages - for hosting your static website Namecheap - for buying the domain name of your site Additionally it worth mentioning that the costs of this setup is that your domain name will cost, Hugo and GitHub Pages are free for small blogers.</description>
+    </item>
+    
+  </channel>
+</rss>
