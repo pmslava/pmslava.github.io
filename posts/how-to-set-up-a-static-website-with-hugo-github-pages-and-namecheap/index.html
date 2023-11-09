@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  How to set up a static website with Hugo, GitHub Pages and Namecheap as a domain registrar · pmslava
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="pmslava">
+<meta name="description" content="This article contains a comprehensive guide on how to set up your personal blog using Hugo, GitHub Pages, and Namecheap. It is aimed at anyone who wants to run their own blog but doesn&#39;t have specialized technical knowledge.">
+<meta name="keywords" content="blog,product,project,process,management,development,linux,open-source">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to set up a static website with Hugo, GitHub Pages and Namecheap as a domain registrar"/>
+<meta name="twitter:description" content="This article contains a comprehensive guide on how to set up your personal blog using Hugo, GitHub Pages, and Namecheap. It is aimed at anyone who wants to run their own blog but doesn&#39;t have specialized technical knowledge."/>
+
+<meta property="og:title" content="How to set up a static website with Hugo, GitHub Pages and Namecheap as a domain registrar" />
+<meta property="og:description" content="This article contains a comprehensive guide on how to set up your personal blog using Hugo, GitHub Pages, and Namecheap. It is aimed at anyone who wants to run their own blog but doesn&#39;t have specialized technical knowledge." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.pmslava.com/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-03-29T00:00:00+00:00" />
+
+
+
+
+<link rel="canonical" href="https://www.pmslava.com/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.0669b62fc2c181a12a4ba10be9984e385c9a5e83dc7cb7ae3759ad0b98d7e8b2.css" integrity="sha256-Bmm2L8LBgaEqS6EL6ZhOOFyaXoPcfLeuN1mtC5jX6LI=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.f6534b0b446b75d9b6ad77a97d43ede2ddaeff1b6e2361fb7198d6f8fcb7f83f.css" integrity="sha256-9lNLC0Rrddm2rXepfUPt4t2u/xtuI2H7cZjW&#43;Py3&#43;D8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.119.0">
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      pmslava
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="/ru/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/">ru</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://www.pmslava.com/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/">
+              How to set up a static website with Hugo, GitHub Pages and Namecheap as a domain registrar
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-03-29T00:00:00Z">
+                March 29, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              5-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/instruction/">instruction</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/blog/">blog</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/linux/">linux</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/site/">site</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/foss/">foss</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/frontend/">frontend</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/git/">git</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/technology/">technology</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>Hi there! This is my first post on this site and I think it&rsquo;s a nice tradition to start it from the explanation on how this site was setted up.</p>
+<h2 id="why-a-static-website">
+  Why a static website
+  <a class="heading-link" href="#why-a-static-website">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>In short the combination of these gives you a very simple, fast and reliable personal blog:</p>
+<ul>
+<li>Hugo - for generation a static website</li>
+<li>GitHub Pages - for hosting your static website</li>
+<li>Namecheap - for buying the domain name of your site</li>
+</ul>
+<p>Additionally it worth mentioning that the costs of this setup is that your domain name will cost, Hugo and GitHub Pages are free for small blogers.</p>
+<p>While setting up my own website I came across several good instructions from more experienced blogers, which you can consider worth reading too. For example, you can read <a href="https://dev.to/dgavlock/creating-a-hugo-site-on-github-pages-3cjo"  class="external-link" target="_blank" rel="noopener">how to install Hugo on Mac from Dillon</a>, or <a href="https://chrisjhart.com/Creating-A-Simple-Free-Blog-Hugo/"  class="external-link" target="_blank" rel="noopener">a well-structured guide from Christoper Hart</a>.</p>
+<p>These guys made a very good job on explaining everything, so in my guide I concentrate mostly on fullness of the istallation.</p>
+<h2 id="step-1-buy-a-domain-name">
+  Step 1: Buy a Domain Name
+  <a class="heading-link" href="#step-1-buy-a-domain-name">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Purchase a domain name from Namecheap or another domain registrar. Do not purchase any fancy additional services as we only need the domain name.</p>
+<h2 id="step-2-install-hugo-and-git">
+  Step 2: Install Hugo and Git
+  <a class="heading-link" href="#step-2-install-hugo-and-git">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>First, you need to install Hugo and Git. This is the only distro-specific step in the entire process, and I&rsquo;m using EndeavourOS, so I&rsquo;m using <code>pacman</code>. To install Hugo and Git, run the following commands in your terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S hugo git
+</span></span></code></pre></div><p>These commands will install Hugo and Git on your system, which are required for creating and publishing your static website.</p>
+<h2 id="step-3-create-a-new-github-repository">
+  Step 3: Create a new GitHub repository
+  <a class="heading-link" href="#step-3-create-a-new-github-repository">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Next, you need to create a new GitHub repository for your website. Go to GitHub.com, log in to your account, and click the &ldquo;New repository&rdquo; button. Give your repository a name (e.g., name-of-your-site.github.io) and click the &ldquo;Create repository&rdquo; button.</p>
+<h2 id="step-4-create-local-folders-for-your-future-site">
+  Step 4: Create local folders for your future site
+  <a class="heading-link" href="#step-4-create-local-folders-for-your-future-site">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>To manage your site easily on your local machine, you&rsquo;ll need to create directories with the following structure:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/name-of-your-site/public
+</span></span></code></pre></div><p>The <code>name-of-your-site</code> directory will be used as the Hugo root directory.</p>
+<p>The <code>public</code> directory will be used to configure your GitHub Pages.</p>
+<h2 id="step-5-install-the-hugo-coder-theme">
+  Step 5: Install the hugo-coder theme
+  <a class="heading-link" href="#step-5-install-the-hugo-coder-theme">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Change to the root directory of your Hugo site and install the hugo-coder theme by running the following commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd name-of-your-site
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
+</span></span></code></pre></div><h2 id="step-6-configure-the-website">
+  Step 6: Configure the website
+  <a class="heading-link" href="#step-6-configure-the-website">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Copy the configuration file from the <code>exampleSite</code> directory to the root directory of your Hugo site by running the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp -av themes/hugo-coder/exampleSite/* .
+</span></span></code></pre></div><p>Then edit the config.toml file to update the settings for your website. For example, you can change the base URL to <code>https://your-site-address/</code>.</p>
+<h2 id="step-7-create-and-publish-content">
+  Step 7: Create and publish content
+  <a class="heading-link" href="#step-7-create-and-publish-content">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Create content for your website by creating new markdown files in the <code>content/</code> directory. You can use the example files in the <code>exampleSite/content/</code> directory as a starting point.</p>
+<p>Once you have created some content, you can preview your website locally by running the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
+</span></span></code></pre></div><p>This will start a local web server at <code>http://localhost:1313/</code>, where you can view your website.</p>
+<h2 id="step-8-set-up-your-new-gh-pages-branch">
+  Step 8: Set up your new gh-pages branch
+  <a class="heading-link" href="#step-8-set-up-your-new-gh-pages-branch">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Clone your website repository to your local machine and create a new branch called <code>gh-pages</code> by running the following commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/your-git-name/your-website-repository.git cd your-website-repository git checkout -b gh-pages
+</span></span></code></pre></div><p>After you have created your gh-pages branch, go to the &ldquo;Settings&rdquo; of your GitHub repository and click on the &ldquo;Pages&rdquo; tab. Under &ldquo;Source,&rdquo; select the &ldquo;gh-pages&rdquo; branch and click &ldquo;Save.&rdquo; This will configure your repository to use the new branch for hosting your website.</p>
+<h2 id="step-9-publish-the-website">
+  Step 9: Publish the website
+  <a class="heading-link" href="#step-9-publish-the-website">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Once you are satisfied with your website, you can publish it to GitHub Pages by running the following commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo
+</span></span><span style="display:flex;"><span>cd public
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#a5d6ff">&#34;Publishing to gh-pages&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin gh-pages
+</span></span></code></pre></div><p>This will generate your website in the <code>public/</code> directory and push it to the <code>gh-pages</code> branch of your GitHub repository. Your website should now be live at <code>https://your-repository.github.io/</code>.</p>
+<p>Please check the website is working as it will be down for quite a while after steps 10 and 11.</p>
+<h2 id="step-10-configure-ssl">
+  Step 10: Configure SSL
+  <a class="heading-link" href="#step-10-configure-ssl">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ol>
+<li>In your GitHub repository, go to the &ldquo;Settings&rdquo; tab and scroll down to the &ldquo;GitHub Pages&rdquo; section.</li>
+<li>Under &ldquo;Custom domain&rdquo;, enter your domain name (which you bought on Namecheap site) and click &ldquo;Save&rdquo;.</li>
+<li>GitHub will generate an SSL certificate for your domain name. This process may take a few minutes.</li>
+<li>Once the certificate is generated, select the &ldquo;Enforce HTTPS&rdquo; option to force HTTPS connections for your website.</li>
+</ol>
+<h2 id="step-11-configure-dns-on-namecheap">
+  Step 11: Configure DNS on Namecheap
+  <a class="heading-link" href="#step-11-configure-dns-on-namecheap">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ol>
+<li>Sign in to your Namecheap account and select the &ldquo;Domain List&rdquo; menu.</li>
+<li>Click on the &ldquo;Manage&rdquo; button next to your <code>name-of-your-site</code> domain.</li>
+<li>Under the &ldquo;Domain&rdquo; section, click on &ldquo;Advanced DNS&rdquo;.</li>
+<li>In the &ldquo;Host Records&rdquo; section, click on the &ldquo;Add New Record&rdquo; button.</li>
+<li>Select &ldquo;CNAME Record&rdquo; from the drop-down menu.</li>
+<li>In the &ldquo;Host&rdquo; field, enter <code>www</code>.</li>
+<li>In the &ldquo;Value&rdquo; field, enter <code>your-repository.github.io.</code> (with a trailing period).</li>
+<li>Leave the &ldquo;TTL&rdquo; field as the default value.</li>
+<li>Click on the &ldquo;Save Changes&rdquo; button.</li>
+<li>Next, you need to create an A record for your domain. In the &ldquo;Host Records&rdquo; section, click on the &ldquo;Add New Record&rdquo; button again.</li>
+<li>Select &ldquo;A Record&rdquo; from the drop-down menu.</li>
+<li>In the &ldquo;Host&rdquo; field, enter <code>@</code>.</li>
+<li>In the &ldquo;Value&rdquo; field, enter the IP address of the GitHub Pages server, which is <code>185.199.108.153</code> for <code>your-repository.github.io</code>.</li>
+<li>Repeat the previous two steps to create additional A records for the other three GitHub Pages IP addresses: <code>185.199.109.153</code>, <code>185.199.110.153</code>, and <code>185.199.111.153</code>.</li>
+<li>Finally, click on the &ldquo;Save Changes&rdquo; button to save your DNS settings.</li>
+</ol>
+<p>It may take some time for the DNS changes to propagate, but once they do, you should be able to access your website at <code>name-of-your-site</code>.</p>
+<h2 id="step-12-relax">
+  Step 12: Relax
+  <a class="heading-link" href="#step-12-relax">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Remember that DNS propagation can take some time, so don&rsquo;t worry if your site isn&rsquo;t immediately available. It may take up to 24-48 hours for your domain name to fully propagate.</p>
+<p>Take some time to relax and come back tomorrow to check if your site is available. Once it&rsquo;s up and running, start enjoying your new blog!</p>
+<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+<div id="comment-section"></div>
+<script>
+initComments({
+  node: document.getElementById("comment-section"),
+  defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+  serverName: "cactus.chat",
+  siteName: "pmslava",
+  commentSectionId: "How-to-set-up-a-static-website-with-Hugo-GitHub-Pages-and-Namecheap"
+})
+</script>
+
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2023
+     pmslava 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  <script async defer data-domain="pmslava.com" src="https://plausible.io/js/script.file-downloads.outbound-links.js"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

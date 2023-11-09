@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on pmslava</title>
+    <link>https://www.pmslava.com/ru/posts/</link>
+    <description>Recent content in Posts on pmslava</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Wed, 29 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pmslava.com/ru/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Как настроить статический веб-сайт с помощью Hugo, GitHub Pages и Namecheap в качестве регистратора доменов</title>
+      <link>https://www.pmslava.com/ru/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/</link>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pmslava.com/ru/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/</guid>
+      <description>Привет! Это мой первый пост на этом сайте, и я думаю, что хорошей традицией будет начать его с объяснения того, как был настроен этот сайт.
+Почему статический веб-сайт Link to heading Коротко о преимуществах такой комбинации для простого, быстрого и надежного личного блога:
+Hugo - для генерации статического веб-сайта GitHub Pages - для хостинга вашего статического веб-сайта Namecheap - для покупки доменного имени вашего сайта Кроме того, стоит отметить, что стоимость такой настройки состоит только в стоимости вашего доменного имени, в то время как Hugo и GitHub Pages бесплатны для небольших блогеров.</description>
+    </item>
+    
+  </channel>
+</rss>

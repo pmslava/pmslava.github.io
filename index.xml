@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 29 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pmslava.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to set up a static website with Hugo, GitHub Pages and Namecheap as a domain registrar</title>
-      <link>https://www.pmslava.com/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap-as-a-domain-registrar/</link>
+      <link>https://www.pmslava.com/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/</link>
       <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.pmslava.com/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap-as-a-domain-registrar/</guid>
+      <guid>https://www.pmslava.com/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/</guid>
       <description>Hi there! This is my first post on this site and I think it&amp;rsquo;s a nice tradition to start it from the explanation on how this site was setted up.
 Why a static website Link to heading In short the combination of these gives you a very simple, fast and reliable personal blog:
 Hugo - for generation a static website GitHub Pages - for hosting your static website Namecheap - for buying the domain name of your site Additionally it worth mentioning that the costs of this setup is that your domain name will cost, Hugo and GitHub Pages are free for small blogers.</description>
@@ -21,34 +21,34 @@ Hugo - for generation a static website GitHub Pages - for hosting your static we
     <item>
       <title>About</title>
       <link>https://www.pmslava.com/about/</link>
-      <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.pmslava.com/about/</guid>
-      <description>&amp;ldquo;PM&amp;rdquo; is a special acronym for me. The letter P reflects three main areas of experience for me: Product, Project, and Process. The letter M stands for Manager, which is my main profession.
-My name is Slava, and I can:
-create products, manage projects, analyze processes, and provide trainings. In all these four areas, I have results that I am not ashamed of. You can find examples of my work on the Projects page of my website.</description>
+      <description>Welcome to my professional world! Here, you have the flexibility to engage with me, as a seasoned professional for specialized consultancy or to collaborate with an experienced development team dedicated to delivering tailored software solutions. Whichever path you choose, we are committed to meeting your project needs with expertise and precision.
+Product Owner Expertise - Transforming Vision into Reality Link to heading As a dedicated and methodical Product Owner with over 20 years of experience in Product Creation and Project Management, I bring a wealth of knowledge and expertise to your software development project.</description>
     </item>
     
     <item>
-      <title>Contact</title>
+      <title>Get in Touch</title>
       <link>https://www.pmslava.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.pmslava.com/contact/</guid>
-      <description>Hello and thank you for visiting my personal website!
-If you&amp;rsquo;re looking to connect with like-minded individuals, or if you have any questions or comments about my website, I&amp;rsquo;d love to hear from you. As someone who values meaningful connections, I&amp;rsquo;m always happy to connect with good people.
-Feel free to drop me a message at mail@pmslava.com and I&amp;rsquo;ll do my best to respond as soon as possible.
-Thank you for visiting my website, and I look forward to hearing from you!</description>
+      <description>Welcome to the Connect page! Whether you&amp;rsquo;re interested in my consultancy services, want to discuss a potential project, or have questions about my work, I&amp;rsquo;m here to collaborate and provide solutions.
+Contact Information:
+Email: mail@pmslava.com Phone: +381628544975 LinkedIn: LinkedIn Page Facebook: Facebook Page Ready to bring your vision to life or have a project in mind? Don&amp;rsquo;t hesitate to reach out. Let&amp;rsquo;s connect and explore how we can achieve your goals together.</description>
     </item>
     
     <item>
-      <title>Projects</title>
+      <title>Project Portfolio</title>
       <link>https://www.pmslava.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.pmslava.com/projects/</guid>
-      <description>Welcome to my projects page. Here, you will find a collection of some of the most significant projects I have completed. These projects reflect my skills, creativity, and commitment to delivering exceptional results to my clients and collaborators. Whether you are seeking inspiration or considering working with me, I hope that my portfolio will demonstrate the quality and value of my work.
-LeadFrog Link to heading Dates: 2021-2023 Role: Product owner Link: https://veranstalter.</description>
+      <description>Welcome to our Projects page. Here, I showcase a diverse portfolio that illustrates my own and our team&amp;rsquo;s versatility in solving complex challenges across various industries. Each project reflects our commitment to innovation, excellence, and client satisfaction.
+Solutions Across Industries Link to heading LeadFrog: Transforming Event Experiences Link to heading My Role: Product Owner
+LeadFrog is a groundbreaking SaaS platform for events and exhibitions. Its key achievements include:
+Boosting lead collection by 32% and efficiency by 83%.</description>
     </item>
     
   </channel>

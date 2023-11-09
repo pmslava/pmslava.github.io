@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>
+  Как настроить статический веб-сайт с помощью Hugo, GitHub Pages и Namecheap в качестве регистратора доменов · pmslava
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="pmslava">
+<meta name="description" content="Эта статья содержит подробное руководство о том, как настроить ваш личный блог с использованием Hugo, GitHub Pages и Namecheap. Она предназначена для тех, кто хочет вести свой собственный блог, но не обладает специализированными техническими знаниями.">
+<meta name="keywords" content="блог,продукт,проект,процесс,управление,разработка,линукс,открытый исходный код">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Как настроить статический веб-сайт с помощью Hugo, GitHub Pages и Namecheap в качестве регистратора доменов"/>
+<meta name="twitter:description" content="Эта статья содержит подробное руководство о том, как настроить ваш личный блог с использованием Hugo, GitHub Pages и Namecheap. Она предназначена для тех, кто хочет вести свой собственный блог, но не обладает специализированными техническими знаниями."/>
+
+<meta property="og:title" content="Как настроить статический веб-сайт с помощью Hugo, GitHub Pages и Namecheap в качестве регистратора доменов" />
+<meta property="og:description" content="Эта статья содержит подробное руководство о том, как настроить ваш личный блог с использованием Hugo, GitHub Pages и Namecheap. Она предназначена для тех, кто хочет вести свой собственный блог, но не обладает специализированными техническими знаниями." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.pmslava.com/ru/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-03-29T00:00:00+00:00" />
+
+
+
+
+<link rel="canonical" href="https://www.pmslava.com/ru/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.0669b62fc2c181a12a4ba10be9984e385c9a5e83dc7cb7ae3759ad0b98d7e8b2.css" integrity="sha256-Bmm2L8LBgaEqS6EL6ZhOOFyaXoPcfLeuN1mtC5jX6LI=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.f6534b0b446b75d9b6ad77a97d43ede2ddaeff1b6e2361fb7198d6f8fcb7f83f.css" integrity="sha256-9lNLC0Rrddm2rXepfUPt4t2u/xtuI2H7cZjW&#43;Py3&#43;D8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.119.0">
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/ru">
+      pmslava
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/ru/about/">Обо мне</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/ru/posts/">Блог</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/ru/projects/">Проекты</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/ru/contact/">Контакты</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/">en</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://www.pmslava.com/ru/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/">
+              Как настроить статический веб-сайт с помощью Hugo, GitHub Pages и Namecheap в качестве регистратора доменов
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-03-29T00:00:00Z">
+                марта 29, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              Читать около 5 минут
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/ru/tags/instruction/">instruction</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/ru/tags/blog/">blog</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/ru/tags/linux/">linux</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/ru/tags/site/">site</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/ru/tags/foss/">foss</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/ru/tags/frontend/">frontend</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/ru/tags/git/">git</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/ru/tags/technology/">technology</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>Привет! Это мой первый пост на этом сайте, и я думаю, что хорошей традицией будет начать его с объяснения того, как был настроен этот сайт.</p>
+<h2 id="почему-статический-веб-сайт">
+  Почему статический веб-сайт
+  <a class="heading-link" href="#%d0%bf%d0%be%d1%87%d0%b5%d0%bc%d1%83-%d1%81%d1%82%d0%b0%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9-%d0%b2%d0%b5%d0%b1-%d1%81%d0%b0%d0%b9%d1%82">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Коротко о преимуществах такой комбинации для простого, быстрого и надежного личного блога:</p>
+<ul>
+<li>Hugo - для генерации статического веб-сайта</li>
+<li>GitHub Pages - для хостинга вашего статического веб-сайта</li>
+<li>Namecheap - для покупки доменного имени вашего сайта</li>
+</ul>
+<p>Кроме того, стоит отметить, что стоимость такой настройки состоит только в стоимости вашего доменного имени, в то время как Hugo и GitHub Pages бесплатны для небольших блогеров.</p>
+<p>Настроив свой собственный веб-сайт, я наткнулся на несколько хороших инструкций от более опытных блогеров, которые, возможно, стоит также прочитать. Например, вы можете прочитать <a href="https://dev.to/dgavlock/creating-a-hugo-site-on-github-pages-3cjo"  class="external-link" target="_blank" rel="noopener">как установить Hugo на Mac от Диллона</a>, или <a href="https://chrisjhart.com/Creating-A-Simple-Free-Blog-Hugo/"  class="external-link" target="_blank" rel="noopener">хорошо структурированное руководство от Кристофера Харта</a>.</p>
+<p>Эти ребята проделали большую работу, объяснив все, поэтому в моем руководстве я сосредотачиваюсь в основном на полноте установки.</p>
+<h2 id="шаг-1-покупка-доменного-имени">
+  Шаг 1: Покупка доменного имени
+  <a class="heading-link" href="#%d1%88%d0%b0%d0%b3-1-%d0%bf%d0%be%d0%ba%d1%83%d0%bf%d0%ba%d0%b0-%d0%b4%d0%be%d0%bc%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b8%d0%bc%d0%b5%d0%bd%d0%b8">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Приобретите доменное имя у Namecheap или другого регистратора доменов. Не покупайте никаких дополнительных услуг, так как нам нужно только доменное имя.</p>
+<h2 id="шаг-2-установка-hugo-и-git">
+  Шаг 2: Установка Hugo и Git
+  <a class="heading-link" href="#%d1%88%d0%b0%d0%b3-2-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-hugo-%d0%b8-git">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Сначала вам нужно установить Hugo и Git. Это единственный шаг, зависящий от дистрибутива, и поскольку я использую EndeavourOS, я использую <code>pacman</code>. Для установки Hugo и Git выполните следующие команды в терминале:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S hugo git
+</span></span></code></pre></div><p>Эти команды установят Hugo и Git на вашу систему, которые необходимы для создания и публикации вашего статического веб-сайта.</p>
+<h2 id="шаг-3-создание-нового-репозитория-на-github">
+  Шаг 3: Создание нового репозитория на GitHub
+  <a class="heading-link" href="#%d1%88%d0%b0%d0%b3-3-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5-%d0%bd%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d1%80%d0%b5%d0%bf%d0%be%d0%b7%d0%b8%d1%82%d0%be%d1%80%d0%b8%d1%8f-%d0%bd%d0%b0-github">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Затем вам нужно создать новый репозиторий на GitHub для вашего веб-сайта. Перейдите на GitHub.com, войдите в свой аккаунт и нажмите кнопку &ldquo;New repository&rdquo;. Дайте вашему репозиторию имя (например, name-of-your-site.github.io) и нажмите кнопку &ldquo;Create repository&rdquo;.</p>
+<h2 id="шаг-4-создание-локальных-папок-для-вашего-будущего-сайта">
+  Шаг 4: Создание локальных папок для вашего будущего сайта
+  <a class="heading-link" href="#%d1%88%d0%b0%d0%b3-4-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5-%d0%bb%d0%be%d0%ba%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d1%85-%d0%bf%d0%b0%d0%bf%d0%be%d0%ba-%d0%b4%d0%bb%d1%8f-%d0%b2%d0%b0%d1%88%d0%b5%d0%b3%d0%be-%d0%b1%d1%83%d0%b4%d1%83%d1%89%d0%b5%d0%b3%d0%be-%d1%81%d0%b0%d0%b9%d1%82%d0%b0">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Для удобного управления вашим сайтом на локальной машине вам нужно создать директории со следующей структурой:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/name-of-your-site/public
+</span></span></code></pre></div><p>Директория <code>name-of-your-site</code> будет использоваться как корневая директория Hugo.</p>
+<p>Директория <code>public</code> будет использоваться для настройки ваших GitHub Pages.</p>
+<h2 id="шаг-5-установка-темы-hugo-coder">
+  Шаг 5: Установка темы hugo-coder
+  <a class="heading-link" href="#%d1%88%d0%b0%d0%b3-5-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d1%82%d0%b5%d0%bc%d1%8b-hugo-coder">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Перейдите в корневую директорию вашего сайта Hugo и установите тему hugo-coder, выполнив следующие команды:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd name-of-your-site
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
+</span></span></code></pre></div><h2 id="шаг-6-настройка-веб-сайта">
+  Шаг 6: Настройка веб-сайта
+  <a class="heading-link" href="#%d1%88%d0%b0%d0%b3-6-%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b0-%d0%b2%d0%b5%d0%b1-%d1%81%d0%b0%d0%b9%d1%82%d0%b0">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Скопируйте файл конфигурации из директории <code>exampleSite</code> в корневую директорию вашего сайта Hugo, выполнив следующую команду:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp -av themes/hugo-coder/exampleSite/* .
+</span></span></code></pre></div><p>Затем отредактируйте файл config.toml, чтобы обновить настройки для вашего веб-сайта. Например, вы можете изменить базовый URL на <code>https://your-site-address/</code>.</p>
+<h2 id="шаг-7-создание-и-публикация-контента">
+  Шаг 7: Создание и публикация контента
+  <a class="heading-link" href="#%d1%88%d0%b0%d0%b3-7-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b8-%d0%bf%d1%83%d0%b1%d0%bb%d0%b8%d0%ba%d0%b0%d1%86%d0%b8%d1%8f-%d0%ba%d0%be%d0%bd%d1%82%d0%b5%d0%bd%d1%82%d0%b0">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Создайте контент для вашего веб-сайта, создавая новые файлы markdown в директории <code>content/</code>. Вы можете использовать примеры файлов в директории <code>exampleSite/content/</code> в качестве отправной точки.</p>
+<p>Как только вы создадите некоторый контент, вы можете просмотреть ваш веб-сайт локально, запустив следующую команду:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
+</span></span></code></pre></div><p>Это запустит локальный веб-сервер по адресу <code>http://localhost:1313/</code>, где вы сможете просмотреть ваш веб-сайт.</p>
+<h2 id="шаг-8-настройка-новой-ветки-gh-pages">
+  Шаг 8: Настройка новой ветки gh-pages
+  <a class="heading-link" href="#%d1%88%d0%b0%d0%b3-8-%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b0-%d0%bd%d0%be%d0%b2%d0%be%d0%b9-%d0%b2%d0%b5%d1%82%d0%ba%d0%b8-gh-pages">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Клонируйте репозиторий вашего веб-сайта на локальную машину и создайте новую ветку с названием <code>gh-pages</code>, выполнив следующие команды:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/your-git-name/your-website-repository.git cd your-website-repository git checkout -b gh-pages
+</span></span></code></pre></div><p>После создания ветки gh-pages перейдите в раздел &ldquo;Settings&rdquo; вашего репозитория GitHub и нажмите на вкладку &ldquo;Pages&rdquo;. В разделе &ldquo;Source&rdquo; выберите ветку &ldquo;gh-pages&rdquo; и нажмите &ldquo;Save&rdquo;. Это настроит ваш репозиторий на использование новой ветки для хостинга вашего веб-сайта.</p>
+<h2 id="шаг-9-публикация-веб-сайта">
+  Шаг 9: Публикация веб-сайта
+  <a class="heading-link" href="#%d1%88%d0%b0%d0%b3-9-%d0%bf%d1%83%d0%b1%d0%bb%d0%b8%d0%ba%d0%b0%d1%86%d0%b8%d1%8f-%d0%b2%d0%b5%d0%b1-%d1%81%d0%b0%d0%b9%d1%82%d0%b0">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Как только вы будете довольны своим веб-сайтом, вы можете опубликовать его на GitHub Pages, выполнив следующие команды:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo
+</span></span><span style="display:flex;"><span>cd public
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#a5d6ff">&#34;Publishing to gh-pages&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin gh-pages
+</span></span></code></pre></div><p>Это сгенерирует ваш веб-сайт в директории <code>public/</code> и отправит его в ветку <code>gh-pages</code> вашего репозитория GitHub. Ваш веб-сайт теперь должен быть доступен по адресу <code>https://your-repository.github.io/</code>.</p>
+<p>Пожалуйста, проверьте, что веб-сайт работает, так как он будет недоступен в течение некоторого времени после шагов 10 и 11.</p>
+<h2 id="шаг-10-настройка-ssl">
+  Шаг 10: Настройка SSL
+  <a class="heading-link" href="#%d1%88%d0%b0%d0%b3-10-%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b0-ssl">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ol>
+<li>В вашем репозитории GitHub перейдите на вкладку &ldquo;Settings&rdquo; и прокрутите вниз до раздела &ldquo;GitHub Pages&rdquo;.</li>
+<li>В разделе &ldquo;Custom domain&rdquo; введите ваше доменное имя (которое вы купили на сайте Namecheap) и нажмите &ldquo;Save&rdquo;.</li>
+<li>GitHub сгенерирует SSL-сертификат для вашего доменного имени. Этот процесс может занять несколько минут.</li>
+<li>Как только сертификат будет сгенерирован, выберите опцию &ldquo;Enforce HTTPS&rdquo; для обязательного использования HTTPS-соединений для вашего веб-сайта.</li>
+</ol>
+<h2 id="шаг-11-настройка-dns-на-namecheap">
+  Шаг 11: Настройка DNS на Namecheap
+  <a class="heading-link" href="#%d1%88%d0%b0%d0%b3-11-%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b0-dns-%d0%bd%d0%b0-namecheap">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ol>
+<li>Войдите в свой аккаунт Namecheap и выберите меню &ldquo;Domain List&rdquo;.</li>
+<li>Нажмите кнопку &ldquo;Manage&rdquo; рядом с вашим доменом <code>name-of-your-site</code>.</li>
+<li>В разделе &ldquo;Domain&rdquo; нажмите на &ldquo;Advanced DNS&rdquo;.</li>
+<li>В разделе &ldquo;Host Records&rdquo; нажмите кнопку &ldquo;Add New Record&rdquo;.</li>
+<li>Выберите &ldquo;CNAME Record&rdquo; в выпадающем меню.</li>
+<li>В поле &ldquo;Host&rdquo; введите <code>www</code>.</li>
+<li>В поле &ldquo;Value&rdquo; введите <code>your-repository.github.io.</code> (с точкой в конце).</li>
+<li>Оставьте поле &ldquo;TTL&rdquo; по умолчанию.</li>
+<li>Нажмите кнопку &ldquo;Save Changes&rdquo;.</li>
+<li>Затем вам нужно создать запись типа A для вашего домена. В разделе &ldquo;Host Records&rdquo; снова нажмите кнопку &ldquo;Add New Record&rdquo;.</li>
+<li>Выберите &ldquo;A Record&rdquo; в выпадающем меню.</li>
+<li>В поле &ldquo;Host&rdquo; введите <code>@</code>.</li>
+<li>В поле &ldquo;Value&rdquo; введите IP-адрес сервера GitHub Pages, который составляет <code>185.199.108.153</code> для <code>your-repository.github.io</code>.</li>
+<li>Повторите предыдущие два шага, чтобы создать дополнительные записи типа A для других трех IP-адресов GitHub Pages: <code>185.199.109.153</code>, <code>185.199.110.153</code> и <code>185.199.111.153</code>.</li>
+<li>Наконец, нажмите кнопку &ldquo;Save Changes&rdquo;, чтобы сохранить настройки DNS.</li>
+</ol>
+<p>На распространение изменений DNS может потребоваться некоторое время, но как только они вступят в силу, вы сможете получить доступ к вашему веб-сайту по адресу <code>name-of-your-site</code>.</p>
+<h2 id="шаг-12-расслабтесь">
+  Шаг 12: Расслабтесь
+  <a class="heading-link" href="#%d1%88%d0%b0%d0%b3-12-%d1%80%d0%b0%d1%81%d1%81%d0%bb%d0%b0%d0%b1%d1%82%d0%b5%d1%81%d1%8c">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Помните, что распространение DNS может занять некоторое время, так что не волнуйтесь, если ваш сайт не станет сразу доступен. На полное распространение вашего доменного имени может потребоваться до 24-48 часов.</p>
+<p>Уделите время отдыху и вернитесь завтра, чтобы проверить, доступен ли ваш сайт. Как только он заработает, начинайте наслаждаться своим новым блогом!</p>
+<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+<div id="comment-section"></div>
+<script>
+initComments({
+  node: document.getElementById("comment-section"),
+  defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+  serverName: "cactus.chat",
+  siteName: "pmslava",
+  commentSectionId: "How-to-set-up-a-static-website-with-Hugo-GitHub-Pages-and-Namecheap-ru"
+})
+</script>
+
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2023
+     pmslava 
+    ·
+    
+    Работает на <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  <script async defer data-domain="pmslava.com" src="https://plausible.io/js/script.file-downloads.outbound-links.js"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
