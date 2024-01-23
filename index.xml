@@ -6,51 +6,35 @@
     <description>Recent content on pmslava</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pmslava.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.pmslava.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to set up a static website with Hugo, GitHub Pages and Namecheap as a domain registrar</title>
       <link>https://www.pmslava.com/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/</link>
       <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pmslava.com/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/</guid>
-      <description>Hi there! This is my first post on this site and I think it&amp;rsquo;s a nice tradition to start it from the explanation on how this site was setted up.
-Why a static website Link to heading In short the combination of these gives you a very simple, fast and reliable personal blog:
-Hugo - for generation a static website GitHub Pages - for hosting your static website Namecheap - for buying the domain name of your site Additionally it worth mentioning that the costs of this setup is that your domain name will cost, Hugo and GitHub Pages are free for small blogers.</description>
+      <description>Hi there! This is my first post on this site and I think it&amp;rsquo;s a nice tradition to start it from the explanation on how this site was setted up.&#xA;Why a static website Link to heading In short the combination of these gives you a very simple, fast and reliable personal blog:&#xA;Hugo - for generation a static website GitHub Pages - for hosting your static website Namecheap - for buying the domain name of your site Additionally it worth mentioning that the costs of this setup is that your domain name will cost, Hugo and GitHub Pages are free for small blogers.</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://www.pmslava.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pmslava.com/about/</guid>
-      <description>Discover unparalleled expertise in software development with pmslava. Here, you have two distinct options:
-Engage with me as a standalone expert - a Product Owner for your team. Or leverage the collective skills of my experienced development team - hire me with my outsource software development team. Our commitment, in either scenario, is to deliver exceptional quality, tailored to your project&amp;rsquo;s unique needs.
-Option 1: Standalone Expert Product Owner Link to heading Transforming Vision into Reality Link to heading As a dedicated and methodical Product Owner with over 20 years of experience in Product Creation and Project Management, I bring a wealth of knowledge and expertise to your software development project.</description>
+      <description>Discover unparalleled expertise in software development with pmslava. Here, you have two distinct options:&#xA;Engage with me as a standalone expert - a Product Owner for your team. Or leverage the collective skills of my experienced development team - hire me with my outsource software development team. Our commitment, in either scenario, is to deliver exceptional quality, tailored to your project&amp;rsquo;s unique needs.&#xA;Option 1: Standalone Expert Product Owner Link to heading Transforming Vision into Reality Link to heading As a dedicated and methodical Product Owner with over 20 years of experience in Product Creation and Project Management, I bring a wealth of knowledge and expertise to your software development project.</description>
     </item>
-    
     <item>
       <title>Get in Touch</title>
       <link>https://www.pmslava.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pmslava.com/contact/</guid>
-      <description>Welcome to the Connect page! Whether you&amp;rsquo;re interested in my consultancy services, want to discuss a potential project, or have questions about my work, I&amp;rsquo;m here to collaborate and provide solutions.
-Contact Information:
-Email: mail@pmslava.com Phone: +381628544975 LinkedIn: LinkedIn Page Facebook: Facebook Page Ready to bring your vision to life or have a project in mind? Don&amp;rsquo;t hesitate to reach out. Let&amp;rsquo;s connect and explore how we can achieve your goals together.</description>
+      <description>Welcome to the Connect page! Whether you&amp;rsquo;re interested in my consultancy services, want to discuss a potential project, or have questions about my work, I&amp;rsquo;m here to collaborate and provide solutions.&#xA;Contact Information:&#xA;Email: mail@pmslava.com Phone: +381628544975 LinkedIn: LinkedIn Page Facebook: Facebook Page Ready to bring your vision to life or have a project in mind? Don&amp;rsquo;t hesitate to reach out. Let&amp;rsquo;s connect and explore how we can achieve your goals together.</description>
     </item>
-    
     <item>
       <title>Project Portfolio</title>
       <link>https://www.pmslava.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pmslava.com/projects/</guid>
-      <description>Welcome to my Projects page. Here, I showcase a diverse portfolio that illustrates my own and our team&amp;rsquo;s versatility in solving complex challenges across various industries. Each project reflects our commitment to innovation, excellence, and client satisfaction.
-Solutions Across Industries Link to heading LeadFrog: Transforming Event Experiences Link to heading My Role: Product Owner
-LeadFrog is a groundbreaking SaaS platform for events and exhibitions. Its key achievements include:
-Boosting lead collection by 32% and efficiency by 83%.</description>
+      <description>Welcome to my Projects page. Here, I showcase a diverse portfolio that illustrates my own and our team&amp;rsquo;s versatility in solving complex challenges across various industries. Each project reflects our commitment to innovation, excellence, and client satisfaction.&#xA;Solutions Across Industries Link to heading LeadFrog: Transforming Event Experiences Link to heading My Role: Product Owner&#xA;LeadFrog is a groundbreaking SaaS platform for events and exhibitions. Its key achievements include:&#xA;Boosting lead collection by 32% and efficiency by 83%.</description>
     </item>
-    
   </channel>
 </rss>
