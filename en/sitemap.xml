@@ -2,6 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.pmslava.com/tags/framework/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/tags/marketing/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://www.pmslava.com/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pmslava.com/"
+                />
+  </url><url>
+    <loc>https://www.pmslava.com/posts/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://www.pmslava.com/ru/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pmslava.com/posts/"
+                />
+  </url><url>
+    <loc>https://www.pmslava.com/tags/practice/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/tags/product/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/tags/programming/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/tags/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://www.pmslava.com/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pmslava.com/tags/"
+                />
+  </url><url>
+    <loc>https://www.pmslava.com/posts/skill-map-for-software-product-owner/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pmslava.com/tags/training/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.pmslava.com/tags/blog/</loc>
     <lastmod>2023-03-29T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -93,32 +153,6 @@
                 href="https://www.pmslava.com/tags/linux/"
                 />
   </url><url>
-    <loc>https://www.pmslava.com/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://www.pmslava.com/ru/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.pmslava.com/"
-                />
-  </url><url>
-    <loc>https://www.pmslava.com/posts/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://www.pmslava.com/ru/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.pmslava.com/posts/"
-                />
-  </url><url>
     <loc>https://www.pmslava.com/tags/site/</loc>
     <lastmod>2023-03-29T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -130,19 +164,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.pmslava.com/tags/site/"
-                />
-  </url><url>
-    <loc>https://www.pmslava.com/tags/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://www.pmslava.com/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.pmslava.com/tags/"
                 />
   </url><url>
     <loc>https://www.pmslava.com/tags/technology/</loc>

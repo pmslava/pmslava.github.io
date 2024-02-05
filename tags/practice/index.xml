@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>practice on pmslava</title>
+    <link>https://www.pmslava.com/tags/practice/</link>
+    <description>Recent content in practice on pmslava</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.pmslava.com/tags/practice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Skill Map for Software Product Owner</title>
+      <link>https://www.pmslava.com/posts/skill-map-for-software-product-owner/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.pmslava.com/posts/skill-map-for-software-product-owner/</guid>
+      <description>In an ever-changing world of software development, the role of a product owner is constantly evolving, blending a mix of technical knowledge and strategic insight. As the tech landscape shifts, so do the skills required to be effective in this role. This article offers a skill map, thoughtfully designed for both established and aspiring software product owners. It outlines key areas of expertise necessary in today&amp;rsquo;s market, including development, emerging technologies, marketing, sales, product management, and project management.</description>
+    </item>
+  </channel>
+</rss>
