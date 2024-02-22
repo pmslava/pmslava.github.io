@@ -158,6 +158,18 @@
                 href="https://www.pmslava.com/ru/posts/how-to-set-up-a-static-website-with-hugo-github-pages-and-namecheap/"
                 />
   </url><url>
+    <loc>https://www.pmslava.com/ru/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pmslava.com/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://www.pmslava.com/ru/contact/"
+                />
+  </url><url>
     <loc>https://www.pmslava.com/ru/about/</loc>
     <xhtml:link
                 rel="alternate"
@@ -180,18 +192,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://www.pmslava.com/ru/projects/"
-                />
-  </url><url>
-    <loc>https://www.pmslava.com/ru/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.pmslava.com/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://www.pmslava.com/ru/contact/"
                 />
   </url>
 </urlset>
