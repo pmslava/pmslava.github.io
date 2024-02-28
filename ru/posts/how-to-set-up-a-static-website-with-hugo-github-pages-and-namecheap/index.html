@@ -70,7 +70,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.122.0">
+<meta name="generator" content="Hugo 0.123.5">
 
 
 
@@ -176,35 +176,35 @@
           <div class="tags">
   <i class="fa fa-tag" aria-hidden="true"></i>
     <span class="tag">
-      <a href="/ru/tags/instruction/">instruction</a>
+      <a href="/ru/tags/instruction/">Instruction</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/ru/tags/blog/">blog</a>
+      <a href="/ru/tags/blog/">Blog</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/ru/tags/linux/">linux</a>
+      <a href="/ru/tags/linux/">Linux</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/ru/tags/site/">site</a>
+      <a href="/ru/tags/site/">Site</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/ru/tags/foss/">foss</a>
+      <a href="/ru/tags/foss/">Foss</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/ru/tags/frontend/">frontend</a>
+      <a href="/ru/tags/frontend/">Frontend</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/ru/tags/git/">git</a>
+      <a href="/ru/tags/git/">Git</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/ru/tags/technology/">technology</a>
+      <a href="/ru/tags/technology/">Technology</a>
     </span></div>
 
         </div>
@@ -245,7 +245,7 @@
   </a>
 </h2>
 <p>Сначала вам нужно установить Hugo и Git. Это единственный шаг, зависящий от дистрибутива, и поскольку я использую EndeavourOS, я использую <code>pacman</code>. Для установки Hugo и Git выполните следующие команды в терминале:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S hugo git
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S hugo git
 </span></span></code></pre></div><p>Эти команды установят Hugo и Git на вашу систему, которые необходимы для создания и публикации вашего статического веб-сайта.</p>
 <h2 id="шаг-3-создание-нового-репозитория-на-github">
   Шаг 3: Создание нового репозитория на GitHub
@@ -263,7 +263,7 @@
   </a>
 </h2>
 <p>Для удобного управления вашим сайтом на локальной машине вам нужно создать директории со следующей структурой:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/name-of-your-site/public
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/name-of-your-site/public
 </span></span></code></pre></div><p>Директория <code>name-of-your-site</code> будет использоваться как корневая директория Hugo.</p>
 <p>Директория <code>public</code> будет использоваться для настройки ваших GitHub Pages.</p>
 <h2 id="шаг-5-установка-темы-hugo-coder">
@@ -274,7 +274,7 @@
   </a>
 </h2>
 <p>Перейдите в корневую директорию вашего сайта Hugo и установите тему hugo-coder, выполнив следующие команды:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd name-of-your-site
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#81a1c1">cd</span> name-of-your-site
 </span></span><span style="display:flex;"><span>git init
 </span></span><span style="display:flex;"><span>git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
 </span></span></code></pre></div><h2 id="шаг-6-настройка-веб-сайта">
@@ -285,7 +285,7 @@
   </a>
 </h2>
 <p>Скопируйте файл конфигурации из директории <code>exampleSite</code> в корневую директорию вашего сайта Hugo, выполнив следующую команду:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp -av themes/hugo-coder/exampleSite/* .
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp -av themes/hugo-coder/exampleSite/* .
 </span></span></code></pre></div><p>Затем отредактируйте файл config.toml, чтобы обновить настройки для вашего веб-сайта. Например, вы можете изменить базовый URL на <code>https://your-site-address/</code>.</p>
 <h2 id="шаг-7-создание-и-публикация-контента">
   Шаг 7: Создание и публикация контента
@@ -296,7 +296,7 @@
 </h2>
 <p>Создайте контент для вашего веб-сайта, создавая новые файлы markdown в директории <code>content/</code>. Вы можете использовать примеры файлов в директории <code>exampleSite/content/</code> в качестве отправной точки.</p>
 <p>Как только вы создадите некоторый контент, вы можете просмотреть ваш веб-сайт локально, запустив следующую команду:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
 </span></span></code></pre></div><p>Это запустит локальный веб-сервер по адресу <code>http://localhost:1313/</code>, где вы сможете просмотреть ваш веб-сайт.</p>
 <h2 id="шаг-8-настройка-новой-ветки-gh-pages">
   Шаг 8: Настройка новой ветки gh-pages
@@ -306,7 +306,7 @@
   </a>
 </h2>
 <p>Клонируйте репозиторий вашего веб-сайта на локальную машину и создайте новую ветку с названием <code>gh-pages</code>, выполнив следующие команды:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/your-git-name/your-website-repository.git cd your-website-repository git checkout -b gh-pages
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/your-git-name/your-website-repository.git <span style="color:#81a1c1">cd</span> your-website-repository git checkout -b gh-pages
 </span></span></code></pre></div><p>После создания ветки gh-pages перейдите в раздел &ldquo;Settings&rdquo; вашего репозитория GitHub и нажмите на вкладку &ldquo;Pages&rdquo;. В разделе &ldquo;Source&rdquo; выберите ветку &ldquo;gh-pages&rdquo; и нажмите &ldquo;Save&rdquo;. Это настроит ваш репозиторий на использование новой ветки для хостинга вашего веб-сайта.</p>
 <h2 id="шаг-9-публикация-веб-сайта">
   Шаг 9: Публикация веб-сайта
@@ -316,10 +316,10 @@
   </a>
 </h2>
 <p>Как только вы будете довольны своим веб-сайтом, вы можете опубликовать его на GitHub Pages, выполнив следующие команды:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo
-</span></span><span style="display:flex;"><span>cd public
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo
+</span></span><span style="display:flex;"><span><span style="color:#81a1c1">cd</span> public
 </span></span><span style="display:flex;"><span>git add .
-</span></span><span style="display:flex;"><span>git commit -m <span style="color:#a5d6ff">&#34;Publishing to gh-pages&#34;</span>
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#a3be8c">&#34;Publishing to gh-pages&#34;</span>
 </span></span><span style="display:flex;"><span>git push origin gh-pages
 </span></span></code></pre></div><p>Это сгенерирует ваш веб-сайт в директории <code>public/</code> и отправит его в ветку <code>gh-pages</code> вашего репозитория GitHub. Ваш веб-сайт теперь должен быть доступен по адресу <code>https://your-repository.github.io/</code>.</p>
 <p>Пожалуйста, проверьте, что веб-сайт работает, так как он будет недоступен в течение некоторого времени после шагов 10 и 11.</p>

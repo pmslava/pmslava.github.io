@@ -3,7 +3,7 @@
 
 <head>
   <title>
-  How to set up a static website with Hugo, GitHub Pages and Namecheap as a domain registrar · pmslava
+  How to set up a static website with Hugo, GitHub Pages and Namecheap as a domain registrar · &gt;&gt;
 </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -70,7 +70,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.122.0">
+<meta name="generator" content="Hugo 0.123.5">
 
 
 
@@ -96,7 +96,7 @@
     <nav class="navigation">
   <section class="container">
     <a class="navigation-title" href="/">
-      pmslava
+      &gt;&gt;
     </a>
     
       <input type="checkbox" id="menu-toggle" />
@@ -176,35 +176,35 @@
           <div class="tags">
   <i class="fa fa-tag" aria-hidden="true"></i>
     <span class="tag">
-      <a href="/tags/instruction/">instruction</a>
+      <a href="/tags/instruction/">Instruction</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/tags/blog/">blog</a>
+      <a href="/tags/blog/">Blog</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/tags/linux/">linux</a>
+      <a href="/tags/linux/">Linux</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/tags/site/">site</a>
+      <a href="/tags/site/">Site</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/tags/foss/">foss</a>
+      <a href="/tags/foss/">Foss</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/tags/frontend/">frontend</a>
+      <a href="/tags/frontend/">Frontend</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/tags/git/">git</a>
+      <a href="/tags/git/">Git</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/tags/technology/">technology</a>
+      <a href="/tags/technology/">Technology</a>
     </span></div>
 
         </div>
@@ -245,7 +245,7 @@
   </a>
 </h2>
 <p>First, you need to install Hugo and Git. This is the only distro-specific step in the entire process, and I&rsquo;m using EndeavourOS, so I&rsquo;m using <code>pacman</code>. To install Hugo and Git, run the following commands in your terminal:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S hugo git
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S hugo git
 </span></span></code></pre></div><p>These commands will install Hugo and Git on your system, which are required for creating and publishing your static website.</p>
 <h2 id="step-3-create-a-new-github-repository">
   Step 3: Create a new GitHub repository
@@ -263,7 +263,7 @@
   </a>
 </h2>
 <p>To manage your site easily on your local machine, you&rsquo;ll need to create directories with the following structure:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/name-of-your-site/public
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/name-of-your-site/public
 </span></span></code></pre></div><p>The <code>name-of-your-site</code> directory will be used as the Hugo root directory.</p>
 <p>The <code>public</code> directory will be used to configure your GitHub Pages.</p>
 <h2 id="step-5-install-the-hugo-coder-theme">
@@ -274,7 +274,7 @@
   </a>
 </h2>
 <p>Change to the root directory of your Hugo site and install the hugo-coder theme by running the following commands:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd name-of-your-site
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#81a1c1">cd</span> name-of-your-site
 </span></span><span style="display:flex;"><span>git init
 </span></span><span style="display:flex;"><span>git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
 </span></span></code></pre></div><h2 id="step-6-configure-the-website">
@@ -285,7 +285,7 @@
   </a>
 </h2>
 <p>Copy the configuration file from the <code>exampleSite</code> directory to the root directory of your Hugo site by running the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp -av themes/hugo-coder/exampleSite/* .
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp -av themes/hugo-coder/exampleSite/* .
 </span></span></code></pre></div><p>Then edit the config.toml file to update the settings for your website. For example, you can change the base URL to <code>https://your-site-address/</code>.</p>
 <h2 id="step-7-create-and-publish-content">
   Step 7: Create and publish content
@@ -296,7 +296,7 @@
 </h2>
 <p>Create content for your website by creating new markdown files in the <code>content/</code> directory. You can use the example files in the <code>exampleSite/content/</code> directory as a starting point.</p>
 <p>Once you have created some content, you can preview your website locally by running the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
 </span></span></code></pre></div><p>This will start a local web server at <code>http://localhost:1313/</code>, where you can view your website.</p>
 <h2 id="step-8-set-up-your-new-gh-pages-branch">
   Step 8: Set up your new gh-pages branch
@@ -306,7 +306,7 @@
   </a>
 </h2>
 <p>Clone your website repository to your local machine and create a new branch called <code>gh-pages</code> by running the following commands:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/your-git-name/your-website-repository.git cd your-website-repository git checkout -b gh-pages
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/your-git-name/your-website-repository.git <span style="color:#81a1c1">cd</span> your-website-repository git checkout -b gh-pages
 </span></span></code></pre></div><p>After you have created your gh-pages branch, go to the &ldquo;Settings&rdquo; of your GitHub repository and click on the &ldquo;Pages&rdquo; tab. Under &ldquo;Source,&rdquo; select the &ldquo;gh-pages&rdquo; branch and click &ldquo;Save.&rdquo; This will configure your repository to use the new branch for hosting your website.</p>
 <h2 id="step-9-publish-the-website">
   Step 9: Publish the website
@@ -316,10 +316,10 @@
   </a>
 </h2>
 <p>Once you are satisfied with your website, you can publish it to GitHub Pages by running the following commands:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo
-</span></span><span style="display:flex;"><span>cd public
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo
+</span></span><span style="display:flex;"><span><span style="color:#81a1c1">cd</span> public
 </span></span><span style="display:flex;"><span>git add .
-</span></span><span style="display:flex;"><span>git commit -m <span style="color:#a5d6ff">&#34;Publishing to gh-pages&#34;</span>
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#a3be8c">&#34;Publishing to gh-pages&#34;</span>
 </span></span><span style="display:flex;"><span>git push origin gh-pages
 </span></span></code></pre></div><p>This will generate your website in the <code>public/</code> directory and push it to the <code>gh-pages</code> branch of your GitHub repository. Your website should now be live at <code>https://your-repository.github.io/</code>.</p>
 <p>Please check the website is working as it will be down for quite a while after steps 10 and 11.</p>
