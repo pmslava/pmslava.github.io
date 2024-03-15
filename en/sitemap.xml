@@ -2,6 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.pmslava.com/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="rs"
+                href="https://www.pmslava.com/rs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://www.pmslava.com/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pmslava.com/"
+                />
+  </url><url>
+    <loc>https://www.pmslava.com/posts/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="rs"
+                href="https://www.pmslava.com/rs/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://www.pmslava.com/ru/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pmslava.com/posts/"
+                />
+  </url><url>
+    <loc>https://www.pmslava.com/tags/serbia/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="rs"
+                href="https://www.pmslava.com/rs/tags/serbia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://www.pmslava.com/ru/tags/serbia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pmslava.com/tags/serbia/"
+                />
+  </url><url>
+    <loc>https://www.pmslava.com/tags/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="rs"
+                href="https://www.pmslava.com/rs/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://www.pmslava.com/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pmslava.com/tags/"
+                />
+  </url><url>
+    <loc>https://www.pmslava.com/tags/tennis/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="rs"
+                href="https://www.pmslava.com/rs/tags/tennis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://www.pmslava.com/ru/tags/tennis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pmslava.com/tags/tennis/"
+                />
+  </url><url>
+    <loc>https://www.pmslava.com/posts/tennis-clubs-in-novi-sad/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="rs"
+                href="https://www.pmslava.com/rs/posts/tennis-clubs-in-novi-sad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://www.pmslava.com/ru/posts/tennis-clubs-in-novi-sad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pmslava.com/posts/tennis-clubs-in-novi-sad/"
+                />
+  </url><url>
     <loc>https://www.pmslava.com/tags/ai/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,47 +125,8 @@
     <loc>https://www.pmslava.com/tags/marketing/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.pmslava.com/</loc>
-    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://www.pmslava.com/ru/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.pmslava.com/"
-                />
-  </url><url>
-    <loc>https://www.pmslava.com/posts/</loc>
-    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://www.pmslava.com/ru/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.pmslava.com/posts/"
-                />
-  </url><url>
     <loc>https://www.pmslava.com/tags/programming/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.pmslava.com/tags/</loc>
-    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://www.pmslava.com/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.pmslava.com/tags/"
-                />
   </url><url>
     <loc>https://www.pmslava.com/tags/technology/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
@@ -197,6 +266,11 @@
     <loc>https://www.pmslava.com/about/</loc>
     <xhtml:link
                 rel="alternate"
+                hreflang="rs"
+                href="https://www.pmslava.com/rs/about/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="https://www.pmslava.com/ru/about/"
                 />
@@ -209,6 +283,11 @@
     <loc>https://www.pmslava.com/contact/</loc>
     <xhtml:link
                 rel="alternate"
+                hreflang="rs"
+                href="https://www.pmslava.com/rs/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="https://www.pmslava.com/ru/contact/"
                 />
@@ -219,6 +298,11 @@
                 />
   </url><url>
     <loc>https://www.pmslava.com/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="rs"
+                href="https://www.pmslava.com/rs/projects/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
