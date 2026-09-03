@@ -1,0 +1,11 @@
+/* No Capital in Header */
+.navigation-title {
+    text-transform: none !important;
+    font-variant: normal !important;
+}
+
+/* No Animation */
+* {
+    animation: none !important;
+    transition: none !important;
+}

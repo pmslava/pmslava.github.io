@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Moved → teniskosmos.com</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://teniskosmos.com/">
+<meta http-equiv="refresh" content="0; url=https://teniskosmos.com/">
+<style>body{margin:0;font:14px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1f2937;background:#fafafa;display:grid;place-items:center;min-height:100vh;padding:20px}p{max-width:30em;text-align:center}a{color:#6366f1;text-decoration:none}a:hover{text-decoration:underline}@media(prefers-color-scheme:dark){body{background:#0b0f14;color:#e5e7eb}}</style>
+<script>
+(function () {
+  // Record the hit on pmslava-analytics so we can see if the redirect is still
+  // earning traffic. sendBeacon is fire-and-forget; the browser flushes it
+  // even after navigation, so the immediate location.replace below is safe.
+  try {
+    var lang = location.pathname.indexOf('/ru/') === 0 ? 'ru'
+             : location.pathname.indexOf('/rs/') === 0 ? 'rs'
+             : 'en';
+    var body = JSON.stringify({
+      e: 'pageview',
+      p: location.pathname,
+      r: document.referrer || undefined,
+      l: lang,
+      s: Math.random().toString(36).slice(2, 14),
+      d: { redirect_to: 'teniskosmos.com' }
+    });
+    if (navigator.sendBeacon) {
+      navigator.sendBeacon('https://a.pmslava.com/e', new Blob([body], { type: 'text/plain' }));
+    }
+  } catch (e) {}
+  // location.replace so the back button doesn't bounce visitors back here.
+  location.replace('https://teniskosmos.com/');
+})();
+</script>
+</head>
+<body>
+<p>This article moved to <a href="https://teniskosmos.com/">teniskosmos.com</a>. Taking you there now…</p>
+</body>
+</html>
