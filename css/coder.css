@@ -1130,6 +1130,7 @@ html.lightbox-open {
 .post-figure {
   margin: 2.4rem 0; }
   .post-figure .project-card__media {
+    width: 100%;
     max-width: 100%; }
 
 .discuss {
@@ -1174,6 +1175,61 @@ body.colorscheme-dark .discuss {
     border-top-color: #424242; }
     body.colorscheme-auto .discuss__link {
       color: #42a5f5; } }
+
+.support-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem 4rem;
+  margin: 3.2rem 0 4rem; }
+
+.support-option {
+  flex: 0 1 auto; }
+
+.content a.support-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  min-height: 4.4rem;
+  padding: 1rem 1.8rem;
+  border-radius: 0.6rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .content a.support-button svg {
+    flex: none;
+    width: 1.8rem;
+    height: 1.8rem; }
+  .content a.support-button:hover, .content a.support-button:focus-visible {
+    color: #fff;
+    text-decoration: none; }
+  .content a.support-button:focus-visible {
+    outline: 2px solid #1565c0;
+    outline-offset: 3px; }
+  .content a.support-button--github {
+    background-color: #bf3989; }
+    .content a.support-button--github:hover, .content a.support-button--github:focus-visible {
+      background-color: #a43175; }
+  .content a.support-button--kofi {
+    background-color: #c9403d; }
+    .content a.support-button--kofi:hover, .content a.support-button--kofi:focus-visible {
+      background-color: #b13431; }
+
+.support-note {
+  margin: 0.8rem 0 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  opacity: 0.75; }
+
+body.colorscheme-dark .content a.support-button:focus-visible {
+  outline-color: #42a5f5; }
+
+@media (prefers-color-scheme: dark) {
+  body.colorscheme-auto .content a.support-button:focus-visible {
+    outline-color: #42a5f5; } }
 
 .notice {
   border-radius: 0.2rem;
@@ -1885,6 +1941,14 @@ html {
   width: 2.4rem;
   height: 2.4rem;
   vertical-align: middle; }
+
+.navigation .navigation-link .icon-heart {
+  margin-right: 0.35em;
+  vertical-align: -0.12em; }
+
+.navigation .navigation-link:hover .icon-heart,
+.navigation .navigation-link:focus-visible .icon-heart {
+  fill: currentColor; }
 
 #dark-mode-toggle.colorscheme-toggle {
   display: inline-flex;
